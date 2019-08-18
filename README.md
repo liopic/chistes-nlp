@@ -38,16 +38,11 @@ But it should be better to use a virtual environment, like `virtualenv`. Refer t
 
 ## Contents
 
+You may only need to see these two:
 * slides/ : slides of the introduction to NLP
 * chistes-nlp.ipynb : notebook to be used in the workshop
+
+Other files:
+* chistes-nlp-all-executed.ipynb : notebook with all cells executed, in case you can't execute yourself
 * data/ : 2k Spanish jokes dataset
-
-
-# NLP applied to Spanish jokes
-
-In this notebook we will be applying different Natural Language Processing techniques to a corpus of jokes in Spanish.
-The **objective** is to **train a Machine Learning model to classify jokes in categories**.
-
-In order to execute smoothly the code, you should've installed the requirements using `pipenv` or `pip` (refer to the README.md for details).
-
-Actually we will be using **pandas** to do a first exploration of the dataset, **spacy (with Spanish package installed)** to extract Natural Language information from the jokes, and **sklearn** to vectorize the jokes and train a Machine Learning model to classify jokes.
+* Pipfile, Pipfile.lock, requirements.txt : dependencies' files
