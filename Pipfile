@@ -9,9 +9,9 @@ verify_ssl = true
 numpy = "~=1.15"
 pandas = "~=0.23"
 matplotlib = "~=2.2"
-sklearn = "==0.*"
 spacy = "~=2.0"
 jupyter = "*"
+scikit-learn = "~=0.21"
 
 [requires]
 python_version = "3.6"
